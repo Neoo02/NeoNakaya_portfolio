@@ -1,0 +1,577 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Noto+Sans+JP:wght@100;300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+header {
+    width: 100vw;
+    height: 101.6vh;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/* 全面映像 */
+/* section */
+.works {
+    width: 100vw;
+    height: 101.6vh;
+    background: #00398e;
+    position: relative;
+}
+
+.works2 {
+    width: 100vw;
+    height: 101.6vh;
+    background: #00398e;
+    position: relative;
+}
+
+.works2 #onngakuyukai1 {
+    position: absolute;
+    width: 100vw;
+    height: 101.6vh;
+    object-fit: cover;
+}
+
+/* blackback */
+.blackback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 101.6vh;
+    background: linear-gradient(#1111110c,#1e1e1ebb);
+    /* opacity: 0.8; */
+}
+
+/* 動画 */
+.works video {
+    position: absolute;
+    width: 100vw;
+    height: 101.6vh;
+    object-fit: cover;
+    /* opacity: 0; */
+}
+
+.und {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 101.6vh;
+    background-image: url(./image/pic/under_water.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #111111; */
+    /* opacity: 0.8; */
+}
+
+.siki {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 101.6vh;
+    background-image: url(./image/pic/sikisai2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #111111; */
+    /* opacity: 0.8; */
+}
+
+/* 詳細箱 */
+.syousai1{
+    position: absolute;
+    top: 20%;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    /* background: #c85050; */
+}
+
+.syousai3{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    /* background: #c85050; */
+}
+
+/* rockin */
+.syousai2{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    /* background: #c85050; */
+}
+
+/* ongakuyukai */
+.syousai4{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    /* background: #c85050; */
+}
+
+/* little */
+.syousai5{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    /* background: #c85050; */
+}
+
+/* acumu */
+.syousai6{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    width: 1000px;
+    height: 100px;
+    /* background: #c85050; */
+}
+
+/* under */
+.syousai7{
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    width: 1000px;
+    height: 100px;
+    /* background: #c85050; */
+}
+
+/* siki */
+.syousai8{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    width: 1000px;
+    height: 100px;
+    /* background: #c85050; */
+}
+
+/* youtube */
+.youtube{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.youtube2{
+    position: absolute;
+    top: 190px;
+    left: 0;
+}
+
+.youtube3{
+    position: absolute;
+    top: 330px;
+    left: 700px;
+}
+
+.youtube4{
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+.youtube5{
+    position: absolute;
+    top: 210px;
+    left: 250px;
+}
+
+.youtube6{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* gazou */
+.picture1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.picture2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* rockin */
+.rock_rogo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rock_koukoku{
+    position: absolute;
+    top: 190px;
+    left: 320px;
+}
+
+/* 音學友會 */
+.onngakuyukai1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.ontwi {
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    left: 410px;
+    width: 120px;
+    height: 30px;
+    color: aliceblue;
+}
+
+.ontwi p {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    width: 120px;
+    height: 30px;
+    /*background: #c85050;*/
+}
+
+.ontwi li {
+    list-style: none;
+}
+
+.ontwi li a{
+    display: block;
+    transition: 0.2s;
+}
+
+.ontwi li a:hover {
+    transform: translateY(-15px);
+}
+
+/* little */
+/* little action */
+.little1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: aliceblue;
+}
+
+.little1 p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.little1 li {
+    list-style: none;
+}
+
+.little1 li a{
+    display: block;
+    transition: 0.2s;
+}
+
+.little1 li a:hover {
+    transform: translateY(-30px);
+}
+
+.play1 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.play2 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+/* akumu */
+.akumusyoujyo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: aliceblue;
+}
+
+.akumusyoujyo p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.akumusyoujyo li {
+    list-style: none;
+}
+
+.akumusyoujyo li a{
+    display: block;
+    transition: 0.2s;
+}
+
+.akumusyoujyo li a:hover {
+    transform: translateY(-30px);
+}
+
+/* akumuhome */
+.akuhome {
+    position: absolute;
+    top: 685px;
+    left: 290px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.akuhome li{
+    list-style: none;
+}
+
+.akuhome li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.akuhome li a:hover {
+    color: #c85050;
+}
+
+/* 詳細コメ箱 */
+.text {
+    position: absolute;
+    top: 315px;
+    left: 0;
+    width: 1209px;
+    height: 200px;
+    color: aliceblue;
+    /* background: #f77575; */
+}
+
+.text2 {
+    position: absolute;
+    top: 370px;
+    left: 0;
+    width: 1209px;
+    height: 200px;
+    color: aliceblue;
+    /* background: #f77575; */
+}
+
+.text3 {
+    position: absolute;
+    top: 410px;
+    left: 0;
+    width: 1209px;
+    height: 200px;
+    color: aliceblue;
+    /* background: #f77575; */
+}
+
+.text4 {
+    position: absolute;
+    top: 380px;
+    left: 0;
+    width: 1209px;
+    height: 200px;
+    color: aliceblue;
+    /* background: #f77575; */
+}
+
+.text5 {
+    position: absolute;
+    top: 370px;
+    left: 0;
+    width: 1209px;
+    height: 200px;
+    color: aliceblue;
+    /* background: #f77575; */
+}
+
+.text6 {
+    position: absolute;
+    top: 370px;
+    left: 0;
+    width: 1209px;
+    height: 200px;
+    color: aliceblue;
+    /* background: #f77575; */
+}
+
+.text7 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 1209px;
+    height: 200px;
+    color: aliceblue;
+    /* background: #f77575; */
+}
+
+/* タイトル */
+h2 {
+    font-size: 55px;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 300;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+}
+
+
+
+/* 使用ソフト */
+.soft {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.softname {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+}
+
+/* 制作期間 */
+.kikan{
+    position: absolute;
+    top: 155px;
+    left: 10px;
+}
+
+.kikanname{
+    position: absolute;
+    top: 155px;
+    left: 110px;
+}
+
+/* 説明文 */
+.setu {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+#ja {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+
+#ja2 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+
+#ja3 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+}
+
+#ja4 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 710px;
+}
+
+#ja5 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+
+#ja6 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+
+#ja7 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 620px;
+}
+
+#ja8 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 590px;
+}
+
+#ja9 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 290px;
+}
+
+#ja10 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 830px;
+}
+
+#ja11 {
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
